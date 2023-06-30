@@ -1,9 +1,13 @@
-## DVDrentals
-Looking at and analyzing using PostgreSQL a DVD rentals database  
+# DVDrentals
+Looking at and analyzing, using PostgreSQL, a Database of DVD rentals  
 [Database used](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)  
   
-- Ratings
+- [Ratings](ratings/rating.csv)
+
 - Customers
+- Rentals
 
 ### Ratings
+### Customers
+### Rentals
 
