@@ -39,22 +39,30 @@ Number of stores in each country.
 ### Rentals
 [categories.csv](rentals/categories.csv)   
 Querying DVDs rented information according to movie category. 
-- category
+- category  
 Movie category.
-- times_rented
+- times_rented  
 Number of times that film category was rented.
-- perc_from_all
+- perc_from_all  
 Percentage rented from all rentals.
-- avg_time_rented
+- avg_time_rented  
 Average time the category was rented for in Days Hours: Munites: Seconds format.
-- above_total_avg
+- above_total_avg  
 Boolean 1/0 variable whether the "avg_time_rented" is above the overall DVDs average rented time.  
-- num_films
+- num_films  
 Number of films in each category.  
-- num_customers_renting
+- num_customers_renting  
 Number of distinct customers from the 'times_rented'.   
 Category, number of DVDs rented, percentage rented per category, average time rented for every film category, 1/0 whether avg time rented is higher than overall avg time rented, number of distinct films in each category, number of distinct customers renting the category of film
-[customers.csv](rentals/customers.csv)
-
-Top 10 customers with most rentals and their average rental time 
+  
+[customers.csv](rentals/customers.csv)   
+Query on top 10 customers with the most number of DVDs rentals.  
+- customer_id  
+Customer IDs.  
+- avg_rental_time  
+Average time customers rented DVDs.   
+- num_rentals
+Number of total DVDs rental by the customer.    
+- above_avg_time  
+1/0 variable whether the "avg_time_time" is above the overall DVDs average. 
 
