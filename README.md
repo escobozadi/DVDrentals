@@ -24,11 +24,21 @@ Average length of films in minutes for every movie rating. Longest average being
 
 ### Customers
 [countries.csv](customers/countries.csv)  
+Query on customers' information according to country. 
 - country
-- number of customers, number of active customers, number of inactive customers, number of stores in the country 
+Every country in the database.
+- num_customers
+Number of customers from each country in the database.
+- num_active
+Number of active customers for each country.
+- num_inactive
+Number of inactive customers for each country.
+- num_stores
+Number of stores in each country.
 
 ### Rentals
+[countries.csv](rentals/countries.csv)    
 Category, number of DVDs rented, percentage rented per category, average time rented for every film category, 1/0 whether avg time rented is higher than overall avg time rented, number of distinct films in each category, number of distinct customers renting the category of film
-
+[countries.csv](rentals/countries.csv)  
 Top 10 customers with most rentals and their average rental time 
 
