@@ -11,7 +11,7 @@ Main topics for querying:
 ### Ratings
 [rating.csv](ratings/rating.csv)  
 Query to look at information about the movie ratings.
-- rating  
+- rating    
 Movie Ratings: PG, PG-13, NC-17, G and R
 - num_films  
 Number of films with each rating
@@ -25,20 +25,36 @@ Average length of films in minutes for every movie rating. Longest average being
 ### Customers
 [countries.csv](customers/countries.csv)  
 Query on customers' information according to country. 
-- country
+- country  
 Every country in the database.
-- num_customers
+- num_customers  
 Number of customers from each country in the database.
-- num_active
+- num_active  
 Number of active customers for each country.
-- num_inactive
+- num_inactive  
 Number of inactive customers for each country.
-- num_stores
+- num_stores  
 Number of stores in each country.
 
 ### Rentals
-[countries.csv](rentals/countries.csv)    
+[categories.csv](rentals/categories.csv)   
+Querying DVDs rented information according to movie category. 
+- category
+Movie category.
+- times_rented
+Number of times that film category was rented.
+- perc_from_all
+Percentage rented from all rentals.
+- avg_time_rented
+Average time the category was rented for in Days Hours: Munites: Seconds format.
+- above_total_avg
+Boolean 1/0 variable whether the "avg_time_rented" is above the overall DVDs average rented time.  
+- num_films
+Number of films in each category.  
+- num_customers_renting
+Number of distinct customers from the 'times_rented'.   
 Category, number of DVDs rented, percentage rented per category, average time rented for every film category, 1/0 whether avg time rented is higher than overall avg time rented, number of distinct films in each category, number of distinct customers renting the category of film
-[countries.csv](rentals/countries.csv)  
+[customers.csv](rentals/customers.csv)
+
 Top 10 customers with most rentals and their average rental time 
 
